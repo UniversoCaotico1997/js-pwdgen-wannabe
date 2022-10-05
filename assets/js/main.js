@@ -14,3 +14,5 @@ const passwordInsicure = userName + surName + colorLike
 
 
 console.log(`Ciao la tua password isicurissima é: ${passwordInsicure}`)
+
+document.getElementById("password").innerHTML = `Ciao la tua password isicurissima é: ${passwordInsicure}`
